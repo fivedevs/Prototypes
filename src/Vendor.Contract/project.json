@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "description": "Vendor.Contract Class Library",
+  "authors": [ "sriramsi" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "System.Collections": "4.0.10-beta-23109",
+    "System.Linq": "4.0.0-beta-23109",
+    "System.Threading": "4.0.10-beta-23109",
+    "System.Runtime": "4.0.10-beta-23109",
+    "Microsoft.CSharp": "4.0.0-beta-23109",
+    "Microsoft.Azure.DocumentDB": "1.4.1"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Microsoft.Azure.DocumentDB": "1.4.1"
+      }
+    }
+  }
+}

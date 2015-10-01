@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "description": "Vendor.Console Console Application",
+  "authors": [ "sriramsi" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "Vendor.Contract": "1.0.0-*",
+    "EntityFramework": "6.1.3",
+    "Microsoft.Azure.DocumentDB": "1.4.1"
+  },
+
+  "commands": {
+    "Vendor.Console": "Vendor.Console"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+      }
+    }
+  }
+}

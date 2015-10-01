@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html ng-app="vendorApp">
+<head>
+    <meta charset="utf-8" />
+    <title>List of Vendors</title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/vendorController.js"></script>
+    <script src="app/services/vendorService.js"></script>
+</head>
+<body ng-cloak>
+    <div ng-controller="vendorController">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Website</th>
+                    <th>Last Modified</th>
+                    <th>Prefered</th>
+                    <th>Blocked</th>
+                    <th>Email</th>
+                    <th>Keywords</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="vendor in vendors">
+                    <td>{{vendor.id}}</td>
+                    <td>{{vendor.Name}}</td>
+                    <td>{{vendor.Description}}</td>
+                    <td>{{vendor.Website}}</td>
+                    <td>{{vendor.LastModifiedDate|date:"dd/MM/yyyy"}}</td>
+                    <td>{{vendor.IsPreffered}}</td>
+                    <td>{{vendor.BlockVendor}}</td>
+                    <td>{{vendor.Email}}</td>
+                    <td>{{vendor.KeyWords}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
