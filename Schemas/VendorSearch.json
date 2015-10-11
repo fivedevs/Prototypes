@@ -1,0 +1,195 @@
+{
+   "partyplanning": {
+      "mappings": {
+         "venuesearch": {
+            "properties": {
+               "region": {
+                  "properties": {
+                     "center": {
+                        "properties": {
+                           "latitude": {
+                              "type": "double"
+                           },
+                           "longitude": {
+                              "type": "double"
+                           }
+                        }
+                     },
+                     "span": {
+                        "properties": {
+                           "latitude_delta": {
+                              "type": "double"
+                           },
+                           "longitude_delta": {
+                              "type": "double"
+                           }
+                        }
+                     }
+                  }
+               },
+               "total": {
+                  "type": "long"
+               },
+               "vendors": {
+                  "properties": {
+                     "VendorCategory": {
+                        "properties": {
+                           "type": {
+                              "type": "string"
+                           }
+                        }
+                     },
+                     "VendorFeatures": {
+                        "properties": {
+                           "features": {
+                              "type": "string"
+                           }
+                        }
+                     },
+                     "VendorType": {
+                        "properties": {
+                           "type": {
+                              "type": "string"
+                           }
+                        }
+                     },
+                     "categories": {
+                        "properties": {
+                           "icon": {
+                              "properties": {
+                                 "prefix": {
+                                    "type": "string"
+                                 },
+                                 "suffix": {
+                                    "type": "string"
+                                 }
+                              }
+                           },
+                           "id": {
+                              "type": "string"
+                           },
+                           "name": {
+                              "type": "string"
+                           },
+                           "pluralName": {
+                              "type": "string"
+                           },
+                           "primary": {
+                              "type": "boolean"
+                           },
+                           "shortName": {
+                              "type": "string"
+                           }
+                        }
+                     },
+                     "contact": {
+                        "properties": {
+                           "facebook": {
+                              "type": "string"
+                           },
+                           "facebookName": {
+                              "type": "string"
+                           },
+                           "facebookUsername": {
+                              "type": "string"
+                           },
+                           "formattedPhone": {
+                              "type": "string"
+                           },
+                           "name": {
+                              "type": "string"
+                           },
+                           "phone": {
+                              "type": "string"
+                           },
+                           "role": {
+                              "type": "string"
+                           },
+                           "twitter": {
+                              "type": "string"
+                           }
+                        }
+                     },
+                     "displayphone": {
+                        "type": "string"
+                     },
+                     "id": {
+                        "type": "string"
+                     },
+                     "issponsored": {
+                        "type": "boolean"
+                     },
+                     "location": {
+                        "properties": {
+                           "cc": {
+                              "type": "string"
+                           },
+                           "city": {
+                              "type": "string"
+                           },
+                           "country": {
+                              "type": "string"
+                           },
+                           "distance": {
+                              "type": "long"
+                           },
+                           "formattedAddress": {
+                              "type": "string"
+                           },
+                           "lat": {
+                              "type": "double"
+                           },
+                           "lng": {
+                              "type": "double"
+                           },
+                           "postalCode": {
+                              "type": "string"
+                           },
+                           "state": {
+                              "type": "string"
+                           }
+                        }
+                     },
+                     "name": {
+                        "type": "string"
+                     },
+                     "rating": {
+                        "type": "double"
+                     },
+                     "review_count": {
+                        "type": "long"
+                     },
+                     "specials": {
+                        "properties": {
+                           "count": {
+                              "type": "long"
+                           },
+                           "items": {
+                              "properties": {
+                                 "text": {
+                                    "type": "string"
+                                 }
+                              }
+                           }
+                        }
+                     },
+                     "stats": {
+                        "properties": {
+                           "clicks": {
+                              "type": "long"
+                           }
+                        }
+                     },
+                     "url": {
+                        "type": "string"
+                     },
+                     "verified": {
+                        "type": "boolean"
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

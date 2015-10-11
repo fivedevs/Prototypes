@@ -1,0 +1,80 @@
+{
+  "region": {
+    "span": {
+      "latitude_delta": 0.4502614600000072,
+      "longitude_delta": 0.30966847999999914
+    },
+    "center": {
+      "latitude": 47.548943300000005,
+      "longitude": -122.2147434
+    }
+  },
+  "total": 111,
+  "vendors": [
+    {
+      "categories": [
+        {
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }
+      ],
+      "contact": {
+        "facebook": "104475634308",
+        "facebookName": "",
+        "facebookUsername": "",
+        "formattedPhone": "(xxx) xxx-xxxx",
+        "name": "",
+        "phone": "",
+        "role": "",
+        "twitter": ""
+      },
+
+      "displayphone": "xxx-xxx-xxxx",
+      "id": "4fedde93e4b0d57e70276de9",
+      "location": {
+        "lat": 40.70014969723652,
+        "lng": -73.99916655844069,
+        "distance": 72,
+        "postalCode": "10280",
+        "cc": "US",
+        "city": "New York",
+        "state": "NY",
+        "country": "United States",
+        "formattedAddress": [ "New York, NY 10280" ]
+      },
+      "name": "MorrisTruck",
+      "rating": 4.5,
+      "review_count": 23,
+      "specials": {
+        "count": 0,
+        "items": [
+          {
+            "text": "Get 10% off for parties of 5 or more."
+          }
+        ]
+      },
+      "stats": {
+        "clicks": 2
+      },
+      "url": "",
+      "VendorType": {
+        "type": [ [ "food", "venue" ] ]
+      },
+      "VendorFeatures": {
+        "features": [ [ "food", "venue" ] ]
+      },
+        "VendorCategory": {
+        "type": [ [ "food", "venue" ] ]
+      },
+      "verified": false,
+      "issponsored": true
+    }
+  ] 
+}
